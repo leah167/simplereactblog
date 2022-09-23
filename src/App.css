@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: blueviolet;
+  padding: 10px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div {
+  font-weight: bold;
+  font-family: fantasy;
+  color: white;
+  font-size: 1.5rem;
+}
+
+img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+button {
+  margin: 10px;
+  padding: 1%;
+  border-radius: 25%;
+  background-color: lavender;
+}
+
+h3,
+h2 {
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 2%;
+  text-transform: capitalize;
+}
+
+input {
+  margin: 1%;
+  padding: 2%;
+  font-size: 1.5rem;
+  color: darkblue;
+  font-family: monospace;
+  text-transform: capitalize;
+}
+
+.blogsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userInfo {
+  font-size: larger;
+  color: blueviolet;
+  text-decoration: wavy;
+  text-transform: capitalize;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  border: 1px solid navy;
+  padding: 10px;
+}
+
+.userInfo div {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+.postArea {
+  padding: 15px 30px;
+  background-color: paleturquoise;
+  border-radius: 5px;
+  width: 250px;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.postArea button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postContent {
+  margin: 20px 0;
+}
